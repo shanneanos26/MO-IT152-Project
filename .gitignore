@@ -1,0 +1,41 @@
+# Ignore the virtual environment directory
+env/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Django secret key and sensitive files (if applicable)
+*.env
+
+# Database file
+db.sqlite3
+
+# Ignore IDE/editor configurations
+.vscode/
+.idea/
+
+# Ignore log files
+*.log
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore compiled Python files
+*.pyd
+*.so
+*.dll
+
+# Ignore unnecessary test coverage and debug data
+htmlcov/
+coverage.xml
+*.cover
+*.coverage
+
+# Ignore Python wheels
+*.whl
+
+# Ignore temporary files
+*.tmp
